@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Login from './routes/login.jsx'
 import Signup from './routes/signup.jsx'
 import Dashboard from './routes/dashboard.jsx'
+import Event from './routes/Event.jsx'
+import Routine from './routes/routine.jsx'
 import ProtectedRoute from './routes/ProtectedRoute.jsx'
 import { AuthProvider } from './auth/AuthProvider.jsx'
 
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <Signup />
+  },
+  {
+    path: "/event",
+    element: <Event />
+  },
+  {
+    path: "/routine",
+    element: <Routine />
   },
   {
     path: "/",

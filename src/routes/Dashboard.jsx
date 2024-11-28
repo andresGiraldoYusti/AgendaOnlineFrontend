@@ -1,3 +1,13 @@
+import Calendar from '../components/calendar'
+import Navbar from '../components/nav'
+
 export default function Dashboard() {
-    return <h1>Dashboard</h1>
+    return (
+        <>
+      <main className='main'>
+        <Navbar></Navbar>
+        <Calendar></Calendar>
+      </main>
+    </>
+    )
 }

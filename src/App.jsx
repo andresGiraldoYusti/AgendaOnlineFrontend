@@ -1,6 +1,5 @@
 import './App.css'
-import Calendar from './components/calendar'
-import Navbar from './components/nav'
+
 
 
 function App() {
@@ -10,13 +9,6 @@ function App() {
     <>
       Hola
     </>
-
-    // <>
-    //   <main className='main'>
-    //     <Navbar></Navbar>
-    //     <Calendar></Calendar>
-    //   </main>
-    // </>
   )
 }
 

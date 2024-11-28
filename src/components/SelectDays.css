@@ -1,0 +1,37 @@
+.days-picker-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra el texto del contenedor */
+  }
+  
+  .title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .checkbox-list {
+    display: flex;
+    flex-direction: column; /* Organiza los días en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 10px; /* Espacio entre los días */
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center; /* Alinea el texto y el checkbox horizontalmente */
+    gap: 10px; /* Espacio entre el checkbox y el texto */
+    font-size: 16px;
+  }
+  
+  .checkbox-item label {
+    cursor: pointer; /* Cambia el cursor a mano al pasar sobre el texto */
+  }
+  
+  .days-picker-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
