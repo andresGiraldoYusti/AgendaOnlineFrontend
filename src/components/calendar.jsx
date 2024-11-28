@@ -20,6 +20,12 @@ export default function Calendar() {
           end: '2024-11-17T16:00:00',
           backgroundColor: '#2196F3',
           borderColor: '#2196F3'
+        },
+        {
+          title: 'Clases',
+          start: '2024-11-24T14:00:00',
+          end: '2024-11-24T16:00:00',
+          backgroundColor: '#2196F3'
         }
       ];
 
