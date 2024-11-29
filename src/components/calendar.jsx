@@ -15,18 +15,19 @@ export default function Calendar() {
           borderColor: '#4CAF50'
         },
         {
-          title: 'Conferencia',
-          start: '2024-11-17T14:00:00',
-          end: '2024-11-17T16:00:00',
-          backgroundColor: '#2196F3',
-          borderColor: '#2196F3'
+          title: 'Reunión de equipo 2',
+          start: '2024-11-17T10:00:00',
+          end: '2024-11-17T12:00:00',
+          backgroundColor: '#4CAF50',
+          borderColor: '#4CAF50'
         },
         {
-          title: 'Clases',
-          start: '2024-11-24T14:00:00',
-          end: '2024-11-24T16:00:00',
-          backgroundColor: '#2196F3'
-        }
+          title: 'Reunión de equipo 3',
+          start: '2024-11-18T10:00:00',
+          end: '2024-11-18T12:00:00',
+          backgroundColor: '#4CAF50',
+          borderColor: '#4CAF50'
+        },
       ];
 
       

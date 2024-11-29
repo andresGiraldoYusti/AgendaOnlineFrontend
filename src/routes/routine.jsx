@@ -19,7 +19,9 @@ export default function Routine() {
                     <label htmlFor="">Fecha final</label>
                     <input type="date"/>
                     <label htmlFor="">Seleccionar los dias de la rutina</label>
+
                     <SelectDays />
+                    <button>Crear rutina</button>
 
                 </form>
             </main>
